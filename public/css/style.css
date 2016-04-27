@@ -1,10 +1,50 @@
+body {
+  background-color: #000;
+  color: #FFF;
+}
+
 .container {
   max-width: 700px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .model-image {
   max-width: 200px;
+}
+
+h1 {
+  padding-top: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+img {
+  border: 2px solid #FFF;
+}
+
+img.footer-img {
+  border: none;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-5deg);
+     -moz-transform: rotate(-5deg);
+       -o-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
