@@ -1,1 +1,2 @@
-# afg
+# Art & Fashion Group
+

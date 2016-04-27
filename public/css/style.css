@@ -1,0 +1,51 @@
+.container {
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.model-image {
+  max-width: 200px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+@media (min-width: 550px) {
+  .one-third.column {
+    width: 45%;
+    display: inline-block;
+    float: left;
+    margin-left: 0;
+    vertical-align: middle;
+  }
+  img.model-image {
+    width: 95%;
+  }
+}
+@media (min-width: 750px) {
+  .one-third.column {
+    width: 30.6666666667%;
+  }
+  img.model-image {
+    max-width: 250px;
+  }
+}
+header {
+  width: 100%;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #888;
+}
+div.content {
+  width: 100%;
+}
+div.grid {
+  width: 100%;
+  max-width: 870px;
+  margin: 0 auto;
+}
+div.row {
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+};
